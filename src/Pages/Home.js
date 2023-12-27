@@ -1,4 +1,4 @@
-import logo from "../Assets/ilogo.png"
+import logo from "../Assets/logo.jpg"
 import { Link } from 'react-router-dom';
 import background from "../Assets/ims2-modified.jpg"
 
@@ -6,7 +6,7 @@ import background from "../Assets/ims2-modified.jpg"
 function Home() {
     return ( 
         <>
-            <div className="flex justify-between w-full p-2 bg-slate-100">
+            <div className="flex justify-between w-full p-2 bg-slate-50">
                 <div className="basis-1/6">
                     <img className="h-12 w-12 ml-10 " src={logo} alt="Inventory Logo"></img>  
                 </div> 
