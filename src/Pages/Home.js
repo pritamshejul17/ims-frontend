@@ -28,7 +28,7 @@ function Home() {
                     Manage orders. Track inventory. Oversee warehouses. One inventory management <br />software to run all your inventory operations.
                     </p>
                     <div className="flex w-1/3 justify-around p-6">
-                    <Link  to="/signup" className="flex justify-center items-center text-black font-medium text-md bg-white w-1/3 rounded-md h-12 ">
+                    <Link  to="/signup" className="flex  justify-center items-center text-black font-medium text-md bg-white w-1/3 rounded-md h-12 ">
                         SIGN UP
                     </Link>
                     <Link to="/signin" className="flex justify-center items-center text-black font-medium text-md bg-white w-1/3 rounded-md h-12 ">
