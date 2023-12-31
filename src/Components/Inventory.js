@@ -1,10 +1,11 @@
 import InventoryHeader from "./InventoryHeader";
 
-function Inventory() {
+function Inventory(props) {
+    // console.log(props);
     return ( 
         <>
             <div className="">
-                <InventoryHeader />
+                <InventoryHeader param={props}/>
             </div>
         </>
      );
