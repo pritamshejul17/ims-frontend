@@ -11,6 +11,7 @@ import {
   Route,
   Link
 } from "react-router-dom";
+import AddFolder from './Components/AddFolder';
 
 function App() {
   return (
@@ -26,6 +27,9 @@ function App() {
           </Route>
           <Route path="/dashboard">
             <Dashboard />
+          </Route>
+          <Route path="/addcategory">
+            <AddFolder />
           </Route>
           <Route path="/">
             <Home />

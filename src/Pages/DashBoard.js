@@ -8,15 +8,6 @@ function Dashboard() {
 
     const [folders, setFolders] = useState([]);
     const [showComponent, setShowComponent] = useState(false);
-    const [addFolder, setAddFolder] = useState(false);
-
-      const handleOffHover = () => {
-        setAddFolder(false);
-      }
-
-      const handleOnHover = () => {
-        setAddFolder(true);
-    };
   
     const handleMouseEnter = () => {
         // console.log();
@@ -41,9 +32,6 @@ function Dashboard() {
                 </div>
                 <div className=" w-full basis-100">
                     <Inventory onHover = {handleMouseEnter} offHover = {handleMouseLeave}/>
-                    <AddFolder onSubmitFolder={handleAddFolder}/>
-                    {/* {<AddFolder onSubmitFolder={handleAddFolder} isTrue = {handleOnHover} isFalse = {handleOffHover}/>} */}
-            
                     <Folder folders={folders} />
                 </div>
             </div>

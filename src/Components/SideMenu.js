@@ -12,7 +12,7 @@ function SideMenu() {
                         </div>
                         <Link to="" className="font-medium">IMS system</Link>
                     </div>
-                    <Link to="" className="text-sm w-full shadow-md hover:bg-red-500 h-full flex justify-center items-center">Dashboard</Link>
+                    <Link to="/dashboard" className="text-sm w-full shadow-md hover:bg-red-500 h-full flex justify-center items-center">Dashboard</Link>
                     <Link to="" className="text-sm w-full shadow-md hover:bg-red-500 h-full flex justify-center items-center">Inventory</Link>
                     <Link to="" className="text-sm w-full shadow-md hover:bg-red-500 h-full flex justify-center items-center">Sales</Link>
                     <Link to="" className="text-sm w-full shadow-md hover:bg-red-500 h-full flex justify-center items-center">Notifications</Link>
