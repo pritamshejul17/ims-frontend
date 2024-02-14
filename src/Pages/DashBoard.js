@@ -41,8 +41,9 @@ function Dashboard() {
                 </div>
                 <div className=" w-full basis-100">
                     <Inventory onHover = {handleMouseEnter} offHover = {handleMouseLeave}/>
-                    {/* <AddFolder onSubmitFolder={handleAddFolder}/> */}
-                    {<AddFolder onSubmitFolder={handleAddFolder} isTrue = {handleOnHover} isFalse = {handleOffHover}/>}
+                    <AddFolder onSubmitFolder={handleAddFolder}/>
+                    {/* {<AddFolder onSubmitFolder={handleAddFolder} isTrue = {handleOnHover} isFalse = {handleOffHover}/>} */}
+            
                     <Folder folders={folders} />
                 </div>
             </div>

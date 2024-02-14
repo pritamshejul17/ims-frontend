@@ -24,11 +24,11 @@ function App() {
           <Route path="/signin">
             <Signin />
           </Route>
-          <Route path="/home">
-            <Home />
+          <Route path="/dashboard">
+            <Dashboard />
           </Route>
           <Route path="/">
-            <Dashboard />
+            <Home />
           </Route>
         </Switch>
       </div>
