@@ -5,6 +5,7 @@ import Signup from './Pages/Signup';
 import Home from './Pages/Home';
 import Dashboard from './Pages/DashBoard';
 import AboutUs from './Pages/AboutUs';
+import Product from './Components/Product';
 
 import {
   BrowserRouter as Router,
@@ -39,6 +40,9 @@ function App() {
           </Route>
           <Route path="/addproduct">
             <AddProduct />
+          </Route>
+          <Route path = "/product/:categoryId/:productId">
+            <Product />
           </Route>
           <Route path="/aboutus">
             <AboutUs />

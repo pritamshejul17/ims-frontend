@@ -60,7 +60,7 @@ const AddProduct = () => {
             <div className="w-2/3 ml-10 h-screen flex justify-end items-center">
                 <form
                     onSubmit={handleSubmit}
-                    className="mb-14 mt-7 bg-zinc-900 opacity-90 shadow-lg flex rounded-md flex-col justify-between h-5/6 w-1/2"
+                    className="mb-14 bg-zinc-900 opacity-90 shadow-lg flex rounded-md flex-col justify-between h-5/6 w-1/2"
                 >
                     <h1 className="w-full h-20 font-medium text-lg text-center bg-zinc-800 text-white flex justify-center items-center">
                         Add Product

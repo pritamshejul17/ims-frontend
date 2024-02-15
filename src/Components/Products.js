@@ -30,7 +30,7 @@ const Products = () => {
   return (
     <div className="grid grid-cols-4 gap-4 p-6">
       {folders.map((folder) => (
-        <Link to={''} key={folder.categoryId} className="w-60 p-3 text-stone-700 bg-stone-100 rounded-md shadow-md">
+        <Link to={`/product/${categoryId}/${folder.productId}`} key={folder.categoryId} className="w-60 p-3 text-stone-700 bg-stone-100 rounded-md shadow-md">
           <div className="flex justify-center">
             <img className="h-60 w-45" src={folder.imageUrl} alt={folder.name} />
           </div>
