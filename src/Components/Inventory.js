@@ -5,7 +5,7 @@ function Inventory(props) {
     return ( 
         <>
             <div className="">
-                <InventoryHeader param={props}/>
+                <InventoryHeader />
             </div>
         </>
      );

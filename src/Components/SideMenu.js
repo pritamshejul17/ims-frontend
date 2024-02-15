@@ -16,8 +16,8 @@ function SideMenu() {
                     <Link to="" className="text-sm w-full shadow-md hover:bg-red-500 h-full flex justify-center items-center">Inventory</Link>
                     <Link to="" className="text-sm w-full shadow-md hover:bg-red-500 h-full flex justify-center items-center">Sales</Link>
                     <Link to="" className="text-sm w-full shadow-md hover:bg-red-500 h-full flex justify-center items-center">Notifications</Link>
-                    <Link to="" className="text-sm w-full shadow-md hover:bg-red-500 h-full flex justify-center items-center">Settings</Link>
-                    <Link to="" className="text-sm w-full shadow-md hover:bg-red-500 h-full flex justify-center items-center">Settings</Link>
+                    <Link to="" className="text-sm w-full shadow-md hover:bg-red-500 h-full flex justify-center items-center">About Us</Link>
+                    <Link to="" className="text-sm w-full shadow-md hover:bg-red-500 h-full flex justify-center items-center">Profile</Link>
                 </div>
             </div>
         </>
