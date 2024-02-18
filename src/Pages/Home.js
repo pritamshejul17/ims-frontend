@@ -14,8 +14,8 @@ function Home() {
                     <Link to="/signin">SIGN IN</Link>
                     <Link to="/signup">SIGN UP</Link>
                     <Link>ABOUT US</Link>
-                    <Link>CONTACT</Link>
-                    <Link>IMS</Link>
+                    <Link to ="/">HOME</Link>
+                    <Link to ='/dashboard'>IMS</Link>
                 </div>
             </div>
             <div className=" h-screen flex flex-col items-center mt-30 " style={{ backgroundImage: `url(${background})` }}>

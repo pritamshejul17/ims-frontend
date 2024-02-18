@@ -13,11 +13,11 @@ function SideMenu() {
                         <Link to="" className="font-medium">IMS system</Link>
                     </div>
                     <Link to="/dashboard" className="text-sm w-full shadow-md hover:bg-red-500 h-full flex justify-center items-center">Dashboard</Link>
-                    <Link to="" className="text-sm w-full shadow-md hover:bg-red-500 h-full flex justify-center items-center">Inventory</Link>
-                    <Link to="" className="text-sm w-full shadow-md hover:bg-red-500 h-full flex justify-center items-center">Sales</Link>
-                    <Link to="" className="text-sm w-full shadow-md hover:bg-red-500 h-full flex justify-center items-center">Notifications</Link>
-                    <Link to="" className="text-sm w-full shadow-md hover:bg-red-500 h-full flex justify-center items-center">About Us</Link>
-                    <Link to="" className="text-sm w-full shadow-md hover:bg-red-500 h-full flex justify-center items-center">Profile</Link>
+                    <Link to="/summary" className="text-sm w-full shadow-md hover:bg-red-500 h-full flex justify-center items-center">Products</Link>
+                    <Link to="/categories" className="text-sm w-full shadow-md hover:bg-red-500 h-full flex justify-center items-center">Categories</Link>
+                    <Link to="/contactus" className="text-sm w-full shadow-md hover:bg-red-500 h-full flex justify-center items-center">Contact Us</Link>
+                    <Link to="/" className="text-sm w-full shadow-md hover:bg-red-500 h-full flex justify-center items-center">Profile</Link>
+                    <Link to="/" className="text-sm w-full shadow-md hover:bg-red-500 h-full flex justify-center items-center">Log Out</Link>
                 </div>
             </div>
         </>

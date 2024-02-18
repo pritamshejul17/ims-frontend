@@ -16,6 +16,9 @@ import {
 import AddFolder from './Components/AddFolder';
 import AddProduct from './Components/AddProduct';
 import ProductDashBoard from './Pages/ProductDashBoard';
+import Summary from './Components/Summary';
+import CategorySummary from './Components/CategorySummary';
+import { ContactUs } from './Components/ContactUs';
 
 function App() {
   return (
@@ -46,6 +49,15 @@ function App() {
           </Route>
           <Route path="/aboutus">
             <AboutUs />
+          </Route>
+          <Route path="/summary">
+            <Summary />
+          </Route>
+          <Route path="/categories">
+            <CategorySummary />
+          </Route>
+          <Route path="/contactus">
+            <ContactUs />
           </Route>
           <Route path="/">
             <Home />
